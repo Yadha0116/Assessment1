@@ -1,6 +1,6 @@
 names = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]
 query = input("Who?")
-if query == names[4]:
-    print("Sam has been found")
+if query in names:
+    print(f"{query} has been found")
 else:
-    print("Sam has been lost")
+    print("name has been lost")
